@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 998px) {
+  /* For mobile ipads: */
+  /* [class*="col-8"] {
+    width: 100%;} */
+}
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* [class*="col-8"] {
+    width: 100%;} */
+}
+@media screen and (max-width: 576px){
+  /* For mobile phones:
+  [class*="col-8"] {
+    width: 100%;} */
+    img {
+      width:100%
+    }
+    h4{
+        font-size: 24px;
+        columns: 8;
+    }
+}

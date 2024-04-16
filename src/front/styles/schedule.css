@@ -1,0 +1,122 @@
+body.waiting {
+    cursor: wait !important;
+}
+
+.bg-light {
+    background-color: #f2e9d8 !important;
+}
+
+.bg-light-2 {
+    background-color: #efd9b2 !important
+}
+
+.nav-link {
+    color: #313d49 !important;
+    border-color: #313d49 !important;
+    padding: 10px;
+}
+
+.body {
+    overflow: hidden;
+}
+
+@media (max-width: 479px) {
+    .nav-link {
+        width: 58px;
+    }
+    .nav-link.active {
+        border-radius: 0%;
+        border-bottom: none !important;
+        border-right: 1px solid black !important;
+        background-color: #f2e9d8 !important;
+    }
+
+    .schedule-row {
+        --bs-gutter-x: 0.15rem !important;
+    }
+    .body {
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+}
+
+.nav-link.active {
+    border-radius: 0%;
+    border-right: none;
+    background-color: #f2e9d8 !important;
+}
+
+.collapse.show {
+    padding: 0px
+}
+
+.schedule-row {
+    --bs-gutter-x: 1.15rem;
+}
+
+.sidebar {
+    border-radius: 10px;
+}
+
+.sidebar-home {
+    color: black !important
+}
+
+
+.modal-dialog {
+    border-radius: 0.3rem;
+}
+
+.modal-content {
+    border-radius: 0.3rem
+}
+
+.modal div {
+    background-color: #f2e9d8;
+    border: 1px solid #f2e9d8
+}
+
+.modal-footer > .btn{
+    background-color: #efd9b2 !important;
+    color: black;
+    border: 1px solid black;
+}
+
+.booked {
+    opacity: 0.5;
+    background-color: #efd9b2 !important
+}
+
+.booked:hover {
+    background-color: #efd9b2 !important;
+    cursor: auto;
+}
+
+.col {
+    height: fit-content !important;
+}   
+
+.container-fluid {
+    height: fit-content !important;
+}
+
+.timeslots-container {
+    margin-left: 4%
+}
+
+.horiz-li {
+    display: flex;
+    margin-left: auto;
+}
+
+.horiz-li.active {
+    border-radius: 0%;
+    border-bottom: none !important;
+    border-right: 1px solid black !important;
+    background-color: #f2e9d8 !important;
+}
+
+.horiz {
+    flex-direction: row;
+    justify-content: space-between;
+}

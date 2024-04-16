@@ -1,0 +1,414 @@
+@media (prefers-reduced-motion: no-perference){
+  :root{
+    scroll-behavior: smooth;
+  }
+}
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+
+/* nav bar */
+
+
+/* /* .logoImg-Desk {
+  height: 100px;
+  width:100px;
+  margin-right: 50px; 
+ ;
+ 
+}
+/* .number-Desk{
+  background-color: #313d49;
+  color: white;
+  text-align-last: center;
+  height: 50%;
+  width: 100%; */
+
+
+/* .navItem-Desk{
+  margin-left: 80%; 
+ 
+} */
+
+
+/* this is my footer */
+
+.dataRow{
+  /* flex-wrap: nowrap; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 470px);
+}
+.footer{
+  padding: 10px;
+}
+.card-text{
+  font-size: 16px;
+}
+
+
+/* .footerScrollBar{
+width: 50dvw;
+height: auto;
+overflow-x: scroll;
+} */
+/* 
+.allCardItems{
+  padding: 10px;
+  display: grid;
+  grid-gap: 30rem;
+  grid-template-columns: repeat(50, 100px);
+} */
+/* .card{
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+} */
+/* .allCardItems{
+
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+} */
+
+.homePageText{
+  text-align: center;
+  padding:5%;
+}
+
+
+/* this is the Aboutme view */
+
+.aboutMeImage{
+
+  padding: 5px;
+}
+.aboutMeText{
+  padding: 50px;
+}
+
+.aboutMeText{
+  padding: 50px;
+}
+/* this is the homepage view */
+
+
+.homePageMiddleRow {
+ padding: 10px;
+  grid-row: 25rm;
+} 
+.list{
+  padding: 5%;
+  padding-left: 10%;
+} 
+
+.StartNowText{
+  color: #54665a;
+  background-color: #f5f5dc;
+}
+.loginButton {
+  cursor: pointer;
+  color: #f5f5dc;
+  background-color: #54665a;
+  transition: background-color 0.3s; 
+
+
+  padding: 10px;
+  border: none;
+}
+
+.loginButton:hover {
+  background-color: #7e9b97; 
+}
+ul{
+ padding: 5%;
+} 
+
+
+/* .aboutMeButton {
+
+  
+  top:20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #f2e9d8;
+} */
+.aboutMeButton {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f2e9d8;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  color:  #54665a;
+  font-size: 16px; 
+}
+.homePage{
+  max-width: 880px;
+}
+.forgotPasswordLink {
+  cursor: pointer;
+  color: #f5f5dc;
+  background-color: #54665a;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+
+  /* Additional styling if needed */
+  padding: 10px;
+  border: none;
+}
+
+.forgotPasswordLink:hover {
+  background-color: #7e9b97; /* Change the background color on hover */
+}
+.startNowPic{
+ 
+  position: relative;
+  text-align: center;
+}
+
+.StartNowText{
+  /* position: absolute;
+  top:20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #f2e9d8; */
+  
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2e9d8;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    color:  #54665a;
+    font-size: 16px; 
+  
+
+}
+
+body{
+    background-color:#84a3a6;
+}
+.homePage{
+  max-width: 880px;
+}
+
+.processBox{
+  background-color:  #f2e9d8;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color:#313d49;
+  background: linear-gradient(180deg,  #96b4b7 0%, #84a3a6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.carousel {
+  padding: 10px;
+  width: 800px;
+  height: 400px;
+
+}
+
+  /* .carouselView{
+    width: 1000px;
+    height: 450px;
+
+  } */
+  .reviewText{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f2e9d8;
+    color: #313d49;
+
+  }
+
+  /* this is the signupUser page */
+
+
+
+  .bannerImage {
+    width: 100%;
+    height: 550px; 
+    object-fit: cover;
+
+  }
+  
+  .signupPage {
+    position: relative;
+  }
+  
+  .signupBox {
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    background-color: #f2e9d8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .beigeBox {
+    background-color: #54665a;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust the width of the signup box as needed */
+    margin: 20px auto; /* Add some margin for spacing */
+  }
+  
+  .signupBox label,
+  .signupBox input {
+    width: 100%; /* Make inputs take the full width of the container */
+    display: block;
+    margin-bottom: 10px; /* Add space between labels and inputs */
+  }
+ /* account page */
+.account_form {
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  background-color: #f2e9d8;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 70px auto; 
+  text-align: center;
+  height: 1100px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.account_form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.account_form input {
+  width: 80%; 
+  height: 30px;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+
+
+label {
+  color: #54665a
+}
+.addPet, .accountSubmit {
+  cursor: pointer;
+  color: #f5f5dc;
+  background-color: #54665a;
+  transition: background-color 0.3s;
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 10px; /* Added border-radius for rounded corners */
+ margin-top: 20px;
+}
+
+.addPet:hover, .accountSubmit:hover {
+  background-color: #7e9b97;
+}
+  .accountButtons {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+
+  justify-content: space-between;
+
+  }
+  .editAccount, .deleteAccountButton {
+    cursor: pointer;
+    color: #f5f5dc;
+    background-color: #54665a;
+    transition: background-color 0.3s;
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 10px; 
+  }
+  
+  .editAccount:hover, .deleteAccountButton:hover {
+    background-color: #7e9b97;
+  }
+.editButtons {
+
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+
+justify-content: space-between;
+}
+    
+
+
+    
+
+
+
+
+  
+
+  
+ 
+  
+  
+
+
+  
+
+  
+
+
+/* #f2e9d8 biege navbar and containers*/
+
+/* dark blue #313d49 */
+
+
+/* dark blue #313d49
+dark green #54665a
+lighter blue #84a3a6
+#f2e9d8
+#efd9b2 darker version of above */
+
+
+
+
+

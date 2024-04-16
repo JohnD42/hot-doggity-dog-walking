@@ -1,0 +1,57 @@
+.timeslots-day {
+    width: 14.285714285%;
+    border: 1px solid black;
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 9px;
+    }
+    .timeslots-day {
+        width: 13%
+    }
+    .timeslots-container {
+        box-shadow: none !important;
+    }
+}
+
+.timeslots-day-date {
+    margin: 0 auto;
+}
+
+.timeslots-day-name {
+    margin: 0 auto;
+}
+
+.timeslot {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.timeslot:hover {
+    background-color:#f2e9d8;
+    cursor: pointer;
+}
+
+.booked {
+    opacity: 0.5
+}
+
+.booked-by-user {
+    background-color: white;
+}
+
+.selected {
+    background-color: white;
+}
+
+.timeslots-container {
+    border-radius: 1rem;
+    box-shadow: #a8a296  3px 3px 3px 3px;
+    gap: 0px;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: auto;
+}
